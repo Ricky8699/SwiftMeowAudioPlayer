@@ -14,6 +14,8 @@
 		8FBDAB3C208DE071005308D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBDAB3A208DE071005308D1 /* LaunchScreen.storyboard */; };
 		8FBDAB47208DE072005308D1 /* UdemyMeowAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBDAB46208DE072005308D1 /* UdemyMeowAppTests.swift */; };
 		8FBDAB52208DE072005308D1 /* UdemyMeowAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBDAB51208DE072005308D1 /* UdemyMeowAppUITests.swift */; };
+		8FBDAB60208DE096005308D1 /* Cat.wav in Resources */ = {isa = PBXBuildFile; fileRef = 8FBDAB5F208DE096005308D1 /* Cat.wav */; };
+		8FBDAB63208DE5B8005308D1 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8FBDAB62208DE5A7005308D1 /* AVFoundation.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +49,8 @@
 		8FBDAB4D208DE072005308D1 /* UdemyMeowAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UdemyMeowAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8FBDAB51208DE072005308D1 /* UdemyMeowAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdemyMeowAppUITests.swift; sourceTree = "<group>"; };
 		8FBDAB53208DE072005308D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FBDAB5F208DE096005308D1 /* Cat.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; name = Cat.wav; path = "../../../Downloads/My First App/Cat.wav"; sourceTree = "<group>"; };
+		8FBDAB62208DE5A7005308D1 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +58,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8FBDAB63208DE5B8005308D1 /* AVFoundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -81,6 +86,7 @@
 				8FBDAB45208DE072005308D1 /* UdemyMeowAppTests */,
 				8FBDAB50208DE072005308D1 /* UdemyMeowAppUITests */,
 				8FBDAB2F208DE071005308D1 /* Products */,
+				8FBDAB61208DE5A7005308D1 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -103,6 +109,7 @@
 				8FBDAB38208DE071005308D1 /* Assets.xcassets */,
 				8FBDAB3A208DE071005308D1 /* LaunchScreen.storyboard */,
 				8FBDAB3D208DE071005308D1 /* Info.plist */,
+				8FBDAB5F208DE096005308D1 /* Cat.wav */,
 			);
 			path = UdemyMeowApp;
 			sourceTree = "<group>";
@@ -123,6 +130,14 @@
 				8FBDAB53208DE072005308D1 /* Info.plist */,
 			);
 			path = UdemyMeowAppUITests;
+			sourceTree = "<group>";
+		};
+		8FBDAB61208DE5A7005308D1 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				8FBDAB62208DE5A7005308D1 /* AVFoundation.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -235,6 +250,7 @@
 				8FBDAB3C208DE071005308D1 /* LaunchScreen.storyboard in Resources */,
 				8FBDAB39208DE071005308D1 /* Assets.xcassets in Resources */,
 				8FBDAB37208DE071005308D1 /* Main.storyboard in Resources */,
+				8FBDAB60208DE096005308D1 /* Cat.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -427,6 +443,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7V95CL2HEK;
 				INFOPLIST_FILE = UdemyMeowApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.UdemyMeowApp;
@@ -441,6 +458,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 7V95CL2HEK;
 				INFOPLIST_FILE = UdemyMeowApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = test.UdemyMeowApp;
