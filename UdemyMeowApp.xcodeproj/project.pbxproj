@@ -1,0 +1,557 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		8FBDAB32208DE071005308D1 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBDAB31208DE071005308D1 /* AppDelegate.swift */; };
+		8FBDAB34208DE071005308D1 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBDAB33208DE071005308D1 /* ViewController.swift */; };
+		8FBDAB37208DE071005308D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBDAB35208DE071005308D1 /* Main.storyboard */; };
+		8FBDAB39208DE071005308D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8FBDAB38208DE071005308D1 /* Assets.xcassets */; };
+		8FBDAB3C208DE071005308D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8FBDAB3A208DE071005308D1 /* LaunchScreen.storyboard */; };
+		8FBDAB47208DE072005308D1 /* UdemyMeowAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBDAB46208DE072005308D1 /* UdemyMeowAppTests.swift */; };
+		8FBDAB52208DE072005308D1 /* UdemyMeowAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8FBDAB51208DE072005308D1 /* UdemyMeowAppUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		8FBDAB43208DE072005308D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FBDAB26208DE071005308D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FBDAB2D208DE071005308D1;
+			remoteInfo = UdemyMeowApp;
+		};
+		8FBDAB4E208DE072005308D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 8FBDAB26208DE071005308D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8FBDAB2D208DE071005308D1;
+			remoteInfo = UdemyMeowApp;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		8FBDAB2E208DE071005308D1 /* UdemyMeowApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = UdemyMeowApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FBDAB31208DE071005308D1 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		8FBDAB33208DE071005308D1 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		8FBDAB36208DE071005308D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		8FBDAB38208DE071005308D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		8FBDAB3B208DE071005308D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		8FBDAB3D208DE071005308D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FBDAB42208DE072005308D1 /* UdemyMeowAppTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UdemyMeowAppTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FBDAB46208DE072005308D1 /* UdemyMeowAppTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdemyMeowAppTests.swift; sourceTree = "<group>"; };
+		8FBDAB48208DE072005308D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8FBDAB4D208DE072005308D1 /* UdemyMeowAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = UdemyMeowAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		8FBDAB51208DE072005308D1 /* UdemyMeowAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UdemyMeowAppUITests.swift; sourceTree = "<group>"; };
+		8FBDAB53208DE072005308D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		8FBDAB2B208DE071005308D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FBDAB3F208DE072005308D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FBDAB4A208DE072005308D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		8FBDAB25208DE071005308D1 = {
+			isa = PBXGroup;
+			children = (
+				8FBDAB30208DE071005308D1 /* UdemyMeowApp */,
+				8FBDAB45208DE072005308D1 /* UdemyMeowAppTests */,
+				8FBDAB50208DE072005308D1 /* UdemyMeowAppUITests */,
+				8FBDAB2F208DE071005308D1 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		8FBDAB2F208DE071005308D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				8FBDAB2E208DE071005308D1 /* UdemyMeowApp.app */,
+				8FBDAB42208DE072005308D1 /* UdemyMeowAppTests.xctest */,
+				8FBDAB4D208DE072005308D1 /* UdemyMeowAppUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		8FBDAB30208DE071005308D1 /* UdemyMeowApp */ = {
+			isa = PBXGroup;
+			children = (
+				8FBDAB31208DE071005308D1 /* AppDelegate.swift */,
+				8FBDAB33208DE071005308D1 /* ViewController.swift */,
+				8FBDAB35208DE071005308D1 /* Main.storyboard */,
+				8FBDAB38208DE071005308D1 /* Assets.xcassets */,
+				8FBDAB3A208DE071005308D1 /* LaunchScreen.storyboard */,
+				8FBDAB3D208DE071005308D1 /* Info.plist */,
+			);
+			path = UdemyMeowApp;
+			sourceTree = "<group>";
+		};
+		8FBDAB45208DE072005308D1 /* UdemyMeowAppTests */ = {
+			isa = PBXGroup;
+			children = (
+				8FBDAB46208DE072005308D1 /* UdemyMeowAppTests.swift */,
+				8FBDAB48208DE072005308D1 /* Info.plist */,
+			);
+			path = UdemyMeowAppTests;
+			sourceTree = "<group>";
+		};
+		8FBDAB50208DE072005308D1 /* UdemyMeowAppUITests */ = {
+			isa = PBXGroup;
+			children = (
+				8FBDAB51208DE072005308D1 /* UdemyMeowAppUITests.swift */,
+				8FBDAB53208DE072005308D1 /* Info.plist */,
+			);
+			path = UdemyMeowAppUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		8FBDAB2D208DE071005308D1 /* UdemyMeowApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FBDAB56208DE072005308D1 /* Build configuration list for PBXNativeTarget "UdemyMeowApp" */;
+			buildPhases = (
+				8FBDAB2A208DE071005308D1 /* Sources */,
+				8FBDAB2B208DE071005308D1 /* Frameworks */,
+				8FBDAB2C208DE071005308D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = UdemyMeowApp;
+			productName = UdemyMeowApp;
+			productReference = 8FBDAB2E208DE071005308D1 /* UdemyMeowApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+		8FBDAB41208DE072005308D1 /* UdemyMeowAppTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FBDAB59208DE072005308D1 /* Build configuration list for PBXNativeTarget "UdemyMeowAppTests" */;
+			buildPhases = (
+				8FBDAB3E208DE072005308D1 /* Sources */,
+				8FBDAB3F208DE072005308D1 /* Frameworks */,
+				8FBDAB40208DE072005308D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FBDAB44208DE072005308D1 /* PBXTargetDependency */,
+			);
+			name = UdemyMeowAppTests;
+			productName = UdemyMeowAppTests;
+			productReference = 8FBDAB42208DE072005308D1 /* UdemyMeowAppTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		8FBDAB4C208DE072005308D1 /* UdemyMeowAppUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 8FBDAB5C208DE072005308D1 /* Build configuration list for PBXNativeTarget "UdemyMeowAppUITests" */;
+			buildPhases = (
+				8FBDAB49208DE072005308D1 /* Sources */,
+				8FBDAB4A208DE072005308D1 /* Frameworks */,
+				8FBDAB4B208DE072005308D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				8FBDAB4F208DE072005308D1 /* PBXTargetDependency */,
+			);
+			name = UdemyMeowAppUITests;
+			productName = UdemyMeowAppUITests;
+			productReference = 8FBDAB4D208DE072005308D1 /* UdemyMeowAppUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		8FBDAB26208DE071005308D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0910;
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = "Imam Asari";
+				TargetAttributes = {
+					8FBDAB2D208DE071005308D1 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					8FBDAB41208DE072005308D1 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8FBDAB2D208DE071005308D1;
+					};
+					8FBDAB4C208DE072005308D1 = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 8FBDAB2D208DE071005308D1;
+					};
+				};
+			};
+			buildConfigurationList = 8FBDAB29208DE071005308D1 /* Build configuration list for PBXProject "UdemyMeowApp" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 8FBDAB25208DE071005308D1;
+			productRefGroup = 8FBDAB2F208DE071005308D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				8FBDAB2D208DE071005308D1 /* UdemyMeowApp */,
+				8FBDAB41208DE072005308D1 /* UdemyMeowAppTests */,
+				8FBDAB4C208DE072005308D1 /* UdemyMeowAppUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		8FBDAB2C208DE071005308D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBDAB3C208DE071005308D1 /* LaunchScreen.storyboard in Resources */,
+				8FBDAB39208DE071005308D1 /* Assets.xcassets in Resources */,
+				8FBDAB37208DE071005308D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FBDAB40208DE072005308D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FBDAB4B208DE072005308D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		8FBDAB2A208DE071005308D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBDAB34208DE071005308D1 /* ViewController.swift in Sources */,
+				8FBDAB32208DE071005308D1 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FBDAB3E208DE072005308D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBDAB47208DE072005308D1 /* UdemyMeowAppTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		8FBDAB49208DE072005308D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8FBDAB52208DE072005308D1 /* UdemyMeowAppUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		8FBDAB44208DE072005308D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FBDAB2D208DE071005308D1 /* UdemyMeowApp */;
+			targetProxy = 8FBDAB43208DE072005308D1 /* PBXContainerItemProxy */;
+		};
+		8FBDAB4F208DE072005308D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 8FBDAB2D208DE071005308D1 /* UdemyMeowApp */;
+			targetProxy = 8FBDAB4E208DE072005308D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		8FBDAB35208DE071005308D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FBDAB36208DE071005308D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		8FBDAB3A208DE071005308D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				8FBDAB3B208DE071005308D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		8FBDAB54208DE072005308D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		8FBDAB55208DE072005308D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		8FBDAB57208DE072005308D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UdemyMeowApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.UdemyMeowApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		8FBDAB58208DE072005308D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UdemyMeowApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.UdemyMeowApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		8FBDAB5A208DE072005308D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UdemyMeowAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.UdemyMeowAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UdemyMeowApp.app/UdemyMeowApp";
+			};
+			name = Debug;
+		};
+		8FBDAB5B208DE072005308D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UdemyMeowAppTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.UdemyMeowAppTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/UdemyMeowApp.app/UdemyMeowApp";
+			};
+			name = Release;
+		};
+		8FBDAB5D208DE072005308D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UdemyMeowAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.UdemyMeowAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UdemyMeowApp;
+			};
+			name = Debug;
+		};
+		8FBDAB5E208DE072005308D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = UdemyMeowAppUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = test.UdemyMeowAppUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = UdemyMeowApp;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		8FBDAB29208DE071005308D1 /* Build configuration list for PBXProject "UdemyMeowApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FBDAB54208DE072005308D1 /* Debug */,
+				8FBDAB55208DE072005308D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FBDAB56208DE072005308D1 /* Build configuration list for PBXNativeTarget "UdemyMeowApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FBDAB57208DE072005308D1 /* Debug */,
+				8FBDAB58208DE072005308D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FBDAB59208DE072005308D1 /* Build configuration list for PBXNativeTarget "UdemyMeowAppTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FBDAB5A208DE072005308D1 /* Debug */,
+				8FBDAB5B208DE072005308D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		8FBDAB5C208DE072005308D1 /* Build configuration list for PBXNativeTarget "UdemyMeowAppUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				8FBDAB5D208DE072005308D1 /* Debug */,
+				8FBDAB5E208DE072005308D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 8FBDAB26208DE071005308D1 /* Project object */;
+}
